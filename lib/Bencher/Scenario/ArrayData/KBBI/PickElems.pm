@@ -9,6 +9,8 @@ use 5.010001;
 use strict;
 use warnings;
 
+# XXX why as --precision is increased, WordList participant becomes slower?
+
 our $scenario = {
     summary => 'Benchmark picking elements',
     participants => [
