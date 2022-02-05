@@ -1,5 +1,7 @@
 package Bencher::Scenarios::ArrayData;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST

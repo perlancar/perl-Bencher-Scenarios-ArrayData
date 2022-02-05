@@ -1,13 +1,13 @@
-package Bencher::Scenario::ArrayData::KBBI::Startup;
+package Bencher::Scenario::ArrayData::Word::ID::KBBI::startup;
+
+use 5.010001;
+use strict;
+use warnings;
 
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
-
-use 5.010001;
-use strict;
-use warnings;
 
 our $scenario = {
     summary => 'Benchmark startup of ArrayData::Word::ID::KBBI vs WordList::ID::KBBI',
@@ -29,5 +29,6 @@ The startup overhead is fairly close. L<WordList> modules used to have
 significantly smaller overhead before the use of roles. But L<Role::Tiny>'s
 overhead is still tiny (~2-3ms on my laptop) so startup overhead should not be
 an issue in most cases.
+
 
 =head1 SEE ALSO
